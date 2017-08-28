@@ -47,6 +47,8 @@
   - [301](../../301.png)
 * Class structure
   * Lecture in the AM, labs in the PM
+    * Pomodoro timer
+    * **Take breaks!**
   * Assignments
     * Readings
     * Daily pair programming labs (1-4pm) Due next morning
@@ -80,18 +82,18 @@
     * High level overview of other media queries and options
   * Flexible Media
     * Using `max-width` for scalable images
+  * Use an icon font
+    * [icomoon.io](https://icomoon.io/)
   * Flexible layouts, libraries
     * [Flexbox](https://codepen.io/dudleystorey/pen/umrnE) and [CSS grid](https://codepen.io/stacy/pen/JbyYRr)
     * Modern 960px grid systems
     * Common responsive frameworks (Bootstrap, Foundation)
     * Width based resizing and scalability of elements
-  * Use an icon font
-    * [icomoon.io](https://icomoon.io/)
 * SMACSS
   * Modular CSS - why use it?
   * Modules: base, layout, module, state, and theme
 
-#### Lab Prep & Git Flow
+## Lab Prep & Git Flow
 * Live-server
   * Install it with npm: `npm install -g live-server`
   * What's it do?
