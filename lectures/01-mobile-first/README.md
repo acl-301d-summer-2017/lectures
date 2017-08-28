@@ -118,4 +118,5 @@
 ## Lab
 
 [Lab: Mobile First Design](https://github.com/acl-301d-summer-2017/lab-01-mobile-first)
-[Portfolio Lab](https://github.com/acl-301d-summer-2017/lab-01-mobile-first/PORTFOLIO-README.md)
+
+[Portfolio Lab](https://github.com/acl-301d-summer-2017/lab-01-mobile-first/blob/master/PORTFOLIO-README.md)
