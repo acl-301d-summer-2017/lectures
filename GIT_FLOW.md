@@ -16,13 +16,13 @@ Here is the recommended workflow (*We reviewed this in class*):
   1. `cd lab-assignments`
   2. `mkdir my-forked-labs`
   3. `cd my-forked-labs`
-  1. `git clone` this repo.
-  1. `cd` into this repo.
+  1. `git clone` the lab repo.
+  1. `cd` into the lab repo.
   1. Immediately `git checkout -b <driverName-navigatorName>` (ex: `git checkout -b rick-jane`).  
 
 ### Write code together!
 
-Find those `TODO` items in the code, and tackle one of them. When you finish a TODO **leave** it in your code. 
+Find those `TODO` items in the code, and tackle one of them. When you finish a TODO **leave** it in your code or **change** it to `DONE`. Do not delete it!
 
 1. Driver: In your terminal, ensure that:
    - you are on a branch with you and your partner's namesake.
