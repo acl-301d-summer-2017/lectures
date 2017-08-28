@@ -31,3 +31,20 @@
 }
 
 /* use the pseudo-element :before to show the icon */
+.icon-menu:before {
+	content: "\e9bd";
+}
+
+.icon-pacman:before {
+	content: "\e916";
+}
+
+@media only screen and (min-width: 414px) {
+	.icon-pacman:before {
+		content: "";
+	}
+
+	.icon-menu:before {
+		display: none;
+	}
+}
