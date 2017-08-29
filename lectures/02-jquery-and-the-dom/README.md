@@ -90,3 +90,5 @@
 
 ## Lab
 [Lab: jQuery & DOM](https://github.com/acl-301d-summer-2017/lab-02-jquery-and-dom)
+
+[Portfolio Lab](https://github.com/acl-301d-summer-2017/lab-02-jquery-and-dom/blob/master/PORTFOLIO-README.md)

@@ -8,11 +8,11 @@
   <body>
 
     <header>
-      <h1>WELCOME TO A NEW WORLD OF DOM MANIPULATION</h1>
+      <h1>WELCOME TO A NEW WORLD OF DOM MANIPULATION<span>!!!</span></h1>
     </header>
 
     <main>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Very_large_array_clouds.jpg">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Very_large_array_clouds.jpg"> -->
       <section id="list-container">
         <p>look at this beautiful list</p>
 
@@ -27,7 +27,9 @@
       <section>
 
         <button type="button" name="my-button">Clicky</button>
-
+        <div>
+          This is a div!
+        </div>
         <form>
           <div class="form-element">
             <label for="textbox">Enter some text:</label>
@@ -40,10 +42,14 @@
           </div>
 
         </form>
+        <div data-content="numbers" data-month="March">
+          1,2,3
+        </div>
 
       </section>
     </main>
     <!-- TODO include jQuery-->
+    <script type="text/javascript" src="vendor/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>

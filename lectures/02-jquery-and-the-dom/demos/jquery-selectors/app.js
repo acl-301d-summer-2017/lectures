@@ -1,6 +1,42 @@
+'use strict';
+
+hello = 'hi';
+myParents = 'notstrict';
+console.log( hello, myParents );
+
+
+
+
+
+// for v forEach
+var iceCream = ['vanilla', 'chocolate', 'strawberry'];
+
+for ( var i = 0; i < iceCream.length; i ++ ) {
+  console.log( 'from the for loop --- ', iceCream[i] );
+}
+
+iceCream.forEach( function ( itemInArray ) {
+  console.log( 'from the forEAch --- ', itemInArray )
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //run a command as soon as the DOM loads
 $(document).ready(function() {
-  // alert('the DOM is ready now!');;
+  // alert('the DOM is ready now!');
   console.log( 'the DOM has loaded' );
 });
 
@@ -47,27 +83,42 @@ $( '.form-element' ).first().find( 'input' );
 $( '.form-element:first-of-type input' );
 
 
+
 //*****getting and setting data*****//
 
 //get text of the matched element(s)
 $('h1').text();
 
 //set text of the matched element(s)
-$('h1').text('this is some new text');
+// $('h1').text('this is some new text');
 
 //get the data-category attribute of an li
 $('li').attr('data-category');
 
 //set the data-category attribute of an li
-$('li').attr('data-category', 'new-value');
+// $('li').attr('data-category', 'new-value');
 
 
 
 
 //*****creating and deleting elements*****//
 
-//TODO make a new <li> and append it to the <ul>
-$( '#beautiful-list' ).append( $( '.li-template' ).clone().text( 'add more' ).removeClass( 'li-template' ) )
+//TODO make a copy of <li> template and append it to the <ul>
+var ul = document.getElementById('beautiful-list');
+var newLi = document.createElement('li');
+newLi.innerText = 'create w document methods';
+ul.appendChild(newLi);
+
+// var $ul = $('#beautiful-list');
+// var $liClone = $('.li-template').clone();
+// $liClone.text('created w jQuery');
+// $ul.append($liClone);
+
+var $ul = $('#beautiful-list');
+$ul.append( $('.li-template').clone().text('created w jQuery!!!') );
+
+// $('#beautiful-list').append( $('.li-template').clone().text('created w jQuery!!!') );
+
 
 //TODO remove an element from the DOM
-$( '#beautiful-list' ).remove()
+// $('*').remove();
