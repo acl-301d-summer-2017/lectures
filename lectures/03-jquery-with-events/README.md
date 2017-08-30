@@ -15,7 +15,8 @@
 
 ### Announcements
 * If you haven't yet, get started on Code Wars!
-    * change settings to "fundamentals"
+    * choose what Kata you do
+    * due Monday!
     * don't stress too much, grading more for effort
 * Extra credit options are available every day and can be turned in whenever!
 
@@ -37,6 +38,8 @@
 <hr></hr>
 
 ## Notes
+* Maryus, Christina Code Review
+    * [commit](https://github.com/acl-301d-summer-2017/lab-02-jquery-and-dom/commit/dea9c52146e7c2c25598486df680c81fe2c622e5)
 
 * jQuery Events
     * Review
@@ -59,6 +62,6 @@
   *(Context: 354-361; Essential: 322-353; Reference: 362-366)*
 
 ## Lab
-[Lab 3: jQuery and events](https://github.com/acl-301d-summer-2017/lab-03-jquery-events)
+[Lab 3: jQuery and events](https://github.com/acl-301d-summer-2017/03-jquery-with-events)
 
-[Portfolio Lab:](https://github.com/acl-301d-summer-2017/lab-03-jquery-events)
+[Portfolio Lab:](https://github.com/acl-301d-summer-2017/03-jquery-with-events/blob/master/PORTFOLIO-README.md)

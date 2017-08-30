@@ -5,38 +5,53 @@
 $( '.tab-content' ).hide();
 
 // attach click listener to nav links
-$( 'a[data-tab]' ).click( function () {
-    $('.tab-content' ).hide();
-    $('section#' + $( this ).data('tab') ).show();
+$( 'nav a' ).click( function () {
+    
+    $( '.tab-content' ).hide(); 
+    var id = $( event.target ).attr( 'data-tab' );
+    $( 'section#' + id ).show();
+    // section#id
+
 });
 
 
+// simulate a click on the cake tab
+// $( 'nav a[data-tab="cake"]' ).click();
+$( '#ice-cream' ).fadeIn();
 
 
 
 
 /*                                                      cake tab */
 var $cakeLayers = $( '#actual-cake div' );
-$( '#new-icing' ).hide();
 
 // attach event listener: when dropdown changes - update cake
-$( 'select[name="icing"]' ).change( function () {
+$( 'select[name="icing"]' ).change( selectHandler );
+
+function selectHandler () {
     $cakeLayers.css( 'border-color', $( this ).val() );
-});
+}
 
 $( 'input[name="flavor"]' ).change( function () {
+    console.log( 'this is the element listening for the event:', this );
+    console.log( '$(this) is that same element as jQuery object!:', $(this) );
+
     $cakeLayers.css('background-color', $( this ).val() );
 });
 
 // special new icing color button
-$( '#cake button' ).click( function () {
-    $( '#new-icing' ).show();
-});
+// $( '#new-icing' ).hide();
+
+// $( '#cake button' ).click( function () {
+//     $( '#new-icing' ).show();
+// });
 
 $( '#new-icing' ).submit( function () {
     event.preventDefault();
-    
-    var $colorInput = $( this ).find( 'input' );
+    console.log( 'this.newColor', this.newColor );
+    // var $colorInput = $( this ).find( 'input' );
+
+    var $colorInput = $( this.newColor );
     var color = $colorInput.val();
     var newOption = '<option value="' +  color + '">' + color + '</option>';
     $( 'select' ).append( newOption );
@@ -55,6 +70,8 @@ $( '#new-icing' ).submit( function () {
 
 // adding click listeners to our cone and cup
 // using shorthand event listener
+
+// $( '#cone' ).click( function... );
 $( '#cone' ).on( 'click', function () {
     $( this ).before( $( '.scoop.template' ).clone().removeClass( 'template' ) );
 });
@@ -74,6 +91,8 @@ $( 'div[data-type="cup"] .scoop' ).on( 'click', function () {
     clicked.addClass( 'mint' );
 });
 
+
+
 // add event listener to div.scoop parent
 $( 'div[data-type="cone"]' ).on( 'click', '.scoop', function () {
     // if ( event.target.id === 'cone' ) { return; }
@@ -84,7 +103,16 @@ $( 'div[data-type="cone"]' ).on( 'click', '.scoop', function () {
 
 
 
+
+
+
+
+
+
+
+
 // special sprinkle button
+// use .each bc we can't use .forEach on a jQuery object!
 $( '#ice-cream button' ).on( 'click', function () {
     $( '.scoop' ).each( function () {
         $( this ).css( 'background-color', randomColor() );
@@ -98,12 +126,3 @@ function randomColor () {
     return colors[ Math.floor( Math.random() * colors.length ) ];
 }
 
-
-
-
-
-
-
-
-// simulate a click on the cake tab
-$( 'a[data-tab="cake"]').click();
