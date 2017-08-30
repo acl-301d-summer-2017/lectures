@@ -25,13 +25,12 @@
 * Create event listeners using jQuery's `$.on()`
 * Distinguish when to use event delegation.
 * Select and target HTML elements using the `data` attribute.
-* Run our scripts when the DOM is ready using `$(document).ready()`
 
 
 ### Yesterday vs Today
 | Yesterday we... | Today we will... |
 | --------------- | ---------------- |
-| <ul><li> used jQuery's data method to add data to elements.</li><li> used the DOM's addEventListener method to listen bind event handlers.</li><li> ran our scripts as soon as they loaded.</li></ul> | <ul><li> use jQuery's data method to update an element's data attributes. </li><li> use jQuery's on method to bind event handlers. </li><li> run our scripts when the document is ready. </li></ul> |
+| <ul><li> used jQuery's attr method to add data to elements.</li><li> used the DOM's addEventListener method to listen bind event handlers.</li></ul> | <ul><li> use jQuery's attr method to update an element's data attributes. </li><li> use jQuery's on method to bind event handlers. </li></ul> |
 
 
 
@@ -41,12 +40,10 @@
 
 * jQuery Events
     * Review
-        * Vanilla JS events recap (pg. 244)
-        * Connect the concept of events with the DOM
-        * Common browser events
-        * Events are handled by callback functions
-        * Understanding ancestry of the DOM, how to traverse to child nodes
+        * Attach event listeners to HTML elements
+        * Events are handled by callback functions (our event handlers)
         * Event handling can be used to override default behavior (like link click, or form submit)
+        * Vanilla JS events recap (pg. 244)
     * jQuery events
         * Examples: click, change/input, scroll
         * With jQuery, event listeners should be registered with `$.on()`

@@ -20,7 +20,7 @@ var $cakeLayers = $( '#actual-cake div' );
 $( '#new-icing' ).hide();
 
 // attach event listener: when dropdown changes - update cake
-$( 'select[name="icing"' ).change( function () {
+$( 'select[name="icing"]' ).change( function () {
     $cakeLayers.css( 'border-color', $( this ).val() );
 });
 
@@ -35,6 +35,7 @@ $( '#cake button' ).click( function () {
 
 $( '#new-icing' ).submit( function () {
     event.preventDefault();
+    
     var $colorInput = $( this ).find( 'input' );
     var color = $colorInput.val();
     var newOption = '<option value="' +  color + '">' + color + '</option>';
