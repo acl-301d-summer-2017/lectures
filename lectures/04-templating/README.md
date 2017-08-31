@@ -40,6 +40,9 @@
 
 ## Notes
 
+#### Code review
+* [Eli, Zach](https://github.com/acl-301d-summer-2017/03-jquery-with-events/tree/code-review)
+
 #### Typography
 * Typography
     * Why typography matters

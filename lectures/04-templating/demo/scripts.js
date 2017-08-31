@@ -9,10 +9,33 @@ function Pet ( petData ) {
 
 Pet.prototype.toHtml = function () {
     // TODO use Handlebars to compile our HTML template
-    var templateFiller = Handlebars.compile( $( '#pet-template' ).html() );  
-    var filledTemplate = templateFiller( this );
+    var template = $( '#pet-template' ).html();
+    console.log( 'template', template );
 
-    return filledTemplate;
+    var templateFiller = Handlebars.compile( template );
+    console.log( 'templateFiller', templateFiller );
+
+    // var obj = {
+    //     name: 'jane',
+    //     type: 'fish',
+    //     description: 'bubbles are fun',
+    //     image: 'https://media.giphy.com/media/mbeBWFPtqdq36/giphy.gif'
+    // };
+
+    var filledTemplate = templateFiller( this );
+    console.log( 'filledTemplate', filledTemplate );
+
+    $( '#pets' ).append( filledTemplate );
+
+    // return filledTemplate;
+
+
+    // var $newPet = $( 'article.template' ).clone().removeClass( 'template' );
+    // $newPet.find( 'h2' ).text( this.name );
+    // $newPet.find( 'p' ).text( this.description );
+    // $newPet.find( 'img' ).attr( 'src', this.image );
+
+    // return $newPet;
 }
 
 function populatePets () {
@@ -24,7 +47,8 @@ function populatePets () {
     
     // loops through array of pet OBJECTS and runs .toHTML()
     pets.forEach( pet => {
-        $( '#pets' ).append( pet.toHtml() );
+        pet.toHtml();
+        // $( '#pets' ).append( pet.toHtml() );
     });
 
 }
