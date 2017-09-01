@@ -92,4 +92,4 @@
 ## Lab
 [Lab 5: AJAX & JSON](https://github.com/acl-301d-summer-2017/05-ajax-and-json-and-wrrc)
 
-[Portfolio lab](https://github.com/acl-301d-summer-2017/05-ajax-and-json-and-wrrc)
+[Portfolio lab](https://github.com/acl-301d-summer-2017/05-ajax-and-json-and-wrrc/blob/master/PORTFOLIO-ASSIGNMENT.md)
