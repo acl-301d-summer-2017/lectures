@@ -1,14 +1,16 @@
 'use strict'
 
-const pg = require('pg');
+const pg = require('pg'); // npm i -save pg
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Set up the client connection to the DB
+// 'postgres://localhost:5432/demos'
+// 'postgres://localhost:5432/kilovolt'
 const connectionString = 'postgres://postgres:1234@localhost:5432/demos';
-const client = new pg.Client(connectionString);
+const client = new pg.Client( connectionString );
 client.connect();
 
 app.use(bodyParser.json());
