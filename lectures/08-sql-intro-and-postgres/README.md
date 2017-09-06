@@ -15,6 +15,7 @@
 1. Lab Prep
 
 ### Announcements
+* One on ones! 
 * **FEEDBACK!**
     * Portfolio assignments 
         * not so helpful since we learn a new way to do the work the next day.
