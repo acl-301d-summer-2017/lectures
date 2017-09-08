@@ -33,6 +33,7 @@
 <hr></hr>
 
 ## Notes
+* [Code-review](https://github.com/acl-301d-summer-2017/09-sql-joins-relations/pull/5)
 * Functional Programming
     * "Sometimes, the elegant implementation is just a function.  Not a method.  Not a class.  Not a framework.  Just a function."
     * Scope
