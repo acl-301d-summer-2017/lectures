@@ -62,3 +62,5 @@
 
 ## Lab
 [Lab 10: Functional Programming](https://github.com/acl-301d-summer-2017/10-functional-programming)
+
+[Portfolio Lab](https://github.com/acl-301d-summer-2017/10-functional-programming/blob/master/PORTFOLIO-ASSIGNMENT.md)
