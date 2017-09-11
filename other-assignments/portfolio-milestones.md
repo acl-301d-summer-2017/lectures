@@ -9,10 +9,10 @@
 1. [ajax-json](#ajax-json)
 1. [node-express](#node-express)
 1. [sql-postgres](#sql-postgres)
-<!-- 1. [sql-joins](#sql-joins)
+1. [sql-joins](#sql-joins)
 1. [functional](#functional)
 1. [spa](#spa)
-1. [rest-api](#rest-api)
+<!--1. [rest-api](#rest-api)
 1. [production](#production)
 1. [state](#state) -->
 
@@ -73,7 +73,7 @@
 - Zilch.
 - Use this extra day to play catch up or add any stretch goals.
 - [README with more info](https://github.com/acl-301d-summer-2017/08-sql-intro-and-postgres/blob/master/PORTFOLIO-README.md)
-<!-- 
+
 
 ## sql-joins
 
@@ -93,7 +93,7 @@
 - Add PageJS to your portfolio so your web page will have routes.
 - [README with more info](https://github.com/acl-301d-summer-2017/11-single-page-applications/blob/master/PORTFOLIO-README.md)
 
-
+<!-- 
 ## rest-api
 
 - **Don't push your GitHub token to GitHub**
