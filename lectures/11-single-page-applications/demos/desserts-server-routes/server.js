@@ -10,13 +10,13 @@ app.get( '/', ( req, res ) => {
 
 // moving these routes to the client side (in routes.js) so that we have a SPA!
 
-// app.get( '/cake', ( req, res ) => {
-//   res.sendFile( 'cake.html', { root: './public' } );
-// });
+app.get( '/cake', ( req, res ) => {
+  res.sendFile( 'cake.html', { root: './public' } );
+});
 
-// app.get( '/ice-cream', ( req, res ) => {
-//   res.sendFile( 'ice-cream.html', { root: './public' } );
-// });
+app.get( '/ice-cream', ( req, res ) => {
+  res.sendFile( 'ice-cream.html', { root: './public' } );
+});
 
 
 

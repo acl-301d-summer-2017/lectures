@@ -6,6 +6,11 @@ var app = app || {};
   
   cakeController.init = function () {
     // write a function that will update the view and show/hide the appropriate sections
+
+    $( '.tab-content' ).hide();
+    $( '#cake' ).show();
+
+    app.cakeView.init();
   }
 
   module.cakeController = cakeController;

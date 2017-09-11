@@ -2,6 +2,8 @@
 
 var app = app || {};
 
+console.log( 'app is:', app );
+
 (function(module){
 
     const iceCreamView = {};

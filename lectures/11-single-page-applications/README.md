@@ -46,6 +46,7 @@
 
 <hr></hr>
 
+* [Code review](https://github.com/acl-301d-summer-2017/10-functional-programming/pull/6)
 * Routing and Controllers
     * Controller: what does it do?
         * the chef at our food stand, they take and make orders
@@ -74,4 +75,5 @@
 
 ## Lab
 [Lab 11: Single Page Applications & Client-Side Routing](https://github.com/acl-301d-summer-2017/11-single-page-applications)
+
 [Portfolio Lab](https://github.com/acl-301d-summer-2017/11-single-page-applications/blob/master/PORTFOLIO-ASSIGNMENT.md)

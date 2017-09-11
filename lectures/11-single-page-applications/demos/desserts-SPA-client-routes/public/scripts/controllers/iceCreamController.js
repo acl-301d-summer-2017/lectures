@@ -6,6 +6,11 @@ var app = app || {};
 
   iceCreamController.init = () => {
     // write a function that will update the view and show/hide the appropriate sections
+
+    $('.tab-content').hide();
+    $('#ice-cream').show();
+    
+    app.iceCreamView.init();
   }
   
   module.iceCreamController = iceCreamController;
