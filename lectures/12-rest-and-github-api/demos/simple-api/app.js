@@ -1,13 +1,11 @@
 'use strict';
-
 // make an AJAX call to GitHub's API to get some data
 
-
 $.ajax({
-    url: 'https://api.github.com/users/sajoy',
+    url: 'https://api.github.com/user/repos',
     method: 'GET',
     headers: {
-        'Authorization': `token ${monkeys}` 
+        'Authorization': `token ${TOKEN}` 
     }
 }).then( data => {
     console.log( 'Data:', data );
