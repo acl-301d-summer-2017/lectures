@@ -117,4 +117,4 @@
 ## Lab
 [Lab 13: Production & Deployment](https://github.com/acl-301d-summer-2017/13-production-deployment)
 
-[Portfolio Lab](https://github.com/acl-301d-summer-2017/13-production-deployment)
+[Portfolio Lab](https://github.com/acl-301d-summer-2017/13-production-deployment/blob/master/PORTFOLIO-ASSIGNMENT.md)
