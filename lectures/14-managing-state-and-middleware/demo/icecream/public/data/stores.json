@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Moo Moon",
+        "location": "SE",
+        "bestSeller": "Chocolate Milk"
+    },
+    {
+        "name": "Ruby Jewel",
+        "location": "Downtown",
+        "bestSeller": "Custom Ice Cream Sandwich"
+    },
+    {
+        "name": "Not Ice Cream",
+        "location": "NE",
+        "bestSeller": "Italian Ice"
+    },
+    {
+        "name": "Carl's",
+        "location": "N",
+        "bestSeller": "Strawberry"
+    },
+    {
+        "name": "The Bow Tie",
+        "location": "N",
+        "bestSeller": "Caramel Swirl"
+    },
+    {
+        "name": "CSS: Cool Soft Serve",
+        "location": "SE",
+        "bestSeller": "MistyRose"
+    },
+    {
+        "name": "Mo'",
+        "location": "Downtown",
+        "bestSeller": "Green Tea Mochi"
+    },
+    {
+        "name": "Shaken and Stirred",
+        "location": "Downtown",
+        "bestSeller": "Amaretto Milkshake"
+    },
+    {
+        "name": "Alchemy Cone Lab",
+        "location": "NE",
+        "bestSeller": "JavaChip"
+    }
+]

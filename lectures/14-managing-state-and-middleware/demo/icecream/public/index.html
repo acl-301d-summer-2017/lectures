@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ice Cream Stores</title>
+    <style>
+        nav a {
+            display: block;
+        }
+
+        #stores > article {
+            margin: 0 auto;
+            min-width: 500px;
+            width: 50%;
+            background: lightgray;
+        }
+
+    </style>
+    
+    <!-- TODO add link to individual store page to our template -->
+    <script id="store-template" type="text/x-handlebars-template">
+        <article>
+            <h2>{{name}}</h2>
+            <p>location: {{location}}</p>
+            <p>best seller: {{bestSeller}}</p>
+            <a href="/stores/{{store_id}}">VISIT TODAY!</a>
+        </article>
+    </script>
+</head>
+
+<body>
+    <nav>
+        <a href="/">VIEW ALL STORES</a>
+        <a href="/locations/NE">VIEW ALL NE STORES</a>
+        <a href="/locations/N">VIEW ALL N STORES</a>
+        <a href="/locations/Downtown">VIEW ALL DOWNTOWN STORES</a>
+    </nav>
+    <section id="stores"></section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/page.js@4.13.3/page.js"></script>
+
+    <script src="js/Store.js"></script>
+    <script src="js/storeView.js"></script>
+    <script src="js/storeController.js"></script>
+    <script src="js/routes.js"></script>
+</body>
+
+</html>
