@@ -16,6 +16,10 @@
 
 ### Announcements
 * Questions?
+* TEAMS
+  * christina, jenny, michael, david
+  * morgan, kate, robin, maryus
+  * shane, zach, eli
 
 <hr></hr>
 
