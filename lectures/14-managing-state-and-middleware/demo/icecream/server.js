@@ -13,6 +13,7 @@ client.connect();
 client.on('error', err => console.error(err));
 
 app.use(bodyParser.json());
+// request.body
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('./public'));
 
@@ -22,7 +23,7 @@ app.use(express.static('./public'));
 
 app.get('/stores/find', (request, response) => {
     let sql = `SELECT * FROM stores
-            WHERE ${request.query.field}=$1;`;
+            WHERE ${request.query.field}=$1;`; // WHERE store_id = 3
 
     client.query(sql, [request.query.val])
         .then(result => {

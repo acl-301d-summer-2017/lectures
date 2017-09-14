@@ -14,7 +14,8 @@ var app = app || {};
             .then( callback );
     }
 
-    Store.find = function(field, value, callback) {
+    Store.find = function( field, value, callback ) {
+        console.log( 'in find' );
         $.get('/stores/find', {field: field, val: value})
             .then(callback);
     };
