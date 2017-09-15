@@ -1,0 +1,42 @@
+## How to start a project???
+
+1. Planning
+    - MVP v Stretch features
+    - Wireframes (what pages will we need?)
+    - Domain model (what your data looks like)
+        - research your APIs first!
+        - your object constructor function
+        - plus possible methods
+        - example:
+            - Article
+                - author
+                - authorUrl
+                - title
+                - body
+                - fetchAll ()
+                - update ()
+            - VacationHouse
+                - price
+                - address
+                - beds
+                - ammenities
+                - rent ()
+        - what do our database tables look like?
+        - do we have mulitple? do we need to normalize? foreign keys?
+2. Scaffolding
+    - add as you needed
+    - first files:
+        - README.md
+        - LICENSE
+        - .gitignore
+        - `npm init` to create `package.json`
+    - more files
+        - public/
+            - scripts/
+                - view/
+                - model/
+                - controller/
+            - styles/
+            - vendor/
+            - index.html
+        - server.js
