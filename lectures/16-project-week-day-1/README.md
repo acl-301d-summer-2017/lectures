@@ -14,6 +14,7 @@ Your team must adhere to the following requirements.
 * Your web site must have at least 2 pages that accept and process user input.
 * Your web site's state must persist between page reloads.
 * Your web site must be deployed live on the Internet.
+* Your web site must integrate a third-party API.
 
 **Process:**
 
@@ -31,7 +32,8 @@ Here's the process that we'll be using for project week.
  - Your team's members
  - Your project's pitch. (What is the problem statement and what are the benefits of your solution? Read more about these [here](https://www.bidsketch.com/proposal-resources/proposal-templates/web-design-proposal-template).)
  - A diagram of relevant details from your project's domain model
- - A few wireframe sketches of your project's pages
+  - What are your models? What properties and methods might they have?
+ - Eireframe sketches of your project's pages
 
  **TIP:** Use pencil and paper to diagram and sketch.
 
