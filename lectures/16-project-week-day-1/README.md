@@ -41,8 +41,7 @@ Here's the process that we'll be using for project week.
 
   **Due at 12pm.**
 
-2.
-Here are some tips on how to organize your team during the launch phase.
+2.  Here are some tips on how to organize your team during the launch phase.
 
  * Elect a Launch Driver who will be responsible for the following:
     * Driving the coding of the initial scaffolding phase.
