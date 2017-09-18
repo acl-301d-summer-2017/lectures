@@ -33,7 +33,7 @@ Here's the process that we'll be using for project week.
  - Your project's pitch. (What is the problem statement and what are the benefits of your solution? Read more about these [here](https://www.bidsketch.com/proposal-resources/proposal-templates/web-design-proposal-template).)
  - A diagram of relevant details from your project's domain model
   - What are your models? What properties and methods might they have?
- - Eireframe sketches of your project's pages
+ - Wireframe sketches of your project's pages
 
  **TIP:** Use pencil and paper to diagram and sketch.
 
