@@ -23,7 +23,6 @@ Your grade is based on your individual effort and your project's technical merit
  * **Good and proper use of HTML**
     * Clear, readable, and efficient structure
     * Uses semantic markup whenever possible
-    * Projects must utilize [Open Graph meta tags](http://ogp.me/) so that the applications provide rich previews in social media and messaging applications.
  * **Good and proper use of CSS**
     * Clear, readable, and efficient styles
     * Layout on various screen sizes like desktop and mobile

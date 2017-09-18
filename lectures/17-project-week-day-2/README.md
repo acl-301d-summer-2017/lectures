@@ -1,7 +1,5 @@
 # Class 17 -  Project Week: Milestone 2
 
-***By the end of Day 2, students should have the core functionality in progress (or near complete), and should be focused on making sure their application data is in an acceptable and usable format.***
-
 ## Development phase
 
 Now that your project is launched, here's how to organize the development efforts of your team:

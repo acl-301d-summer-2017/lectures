@@ -1,9 +1,5 @@
 # Class 19 -  Project Week: Milestone 4
 
-Overview
-
-***By the end of Day 4, students should have their application fully completed and deployed.  Students will likely want to work on additional features or bug fixes, yet, it should be made clear that these updates should exist on their own feature or hotfix branches and **should not **be merged into master.***
-
 ## Presentation Prep
 
 1. Test your presentation:
@@ -29,6 +25,5 @@ Overview
  * Presentation prep
      * Encourage teams to decide now which laptop to present with, and to take a practice run utilizing the projector to get a feel for presentation mode.
  * Application is deployed
-     * Preferably to a site such as Heroku or Firebase
  * All features are completed
      * Original User’s Stories are satisfied as determined by the scope of the project.
